@@ -7,23 +7,22 @@ int main() {
     int iris3_a1 = 111, iris3_a2 = 222, iris3_a3 = 333;
     int iris4_a1 = 444, iris4_a2 = 555, iris4_a3 = 666;
     int a1, a2, a3;
-    printf("Digite os 3 valores da leitura da iris:\n");
-    printf("Atributo 1: ");
+    printf("Atributo da iris 1: ");
     scanf("%d", &a1);
-    printf("Atributo 2: ");
+    printf("Atributo da iris 2: ");
     scanf("%d", &a2);
-    printf("Atributo 3: ");
+    printf("Atributo da iris 3: ");
     scanf("%d", &a3);
     if(abs(a1 - iris1_a1) <= 5 && abs(a2 - iris1_a2) <= 5 && abs(a3 - iris1_a3) <= 5){
-        printf("Usuario 1 autenticado com sucesso!\n");
+        printf("Usuario 1 autenticado\n");
     }else if(abs(a1 - iris2_a1) <= 5 && abs(a2 - iris2_a2) <= 5 && abs(a3 - iris2_a3) <= 5){
-        printf("Usuario 2 autenticado com sucesso!\n");
+        printf("Usuario 2 autenticado\n");
     }else if(abs(a1 - iris3_a1) <= 5 && abs(a2 - iris3_a2) <= 5 && abs(a3 - iris3_a3) <= 5){
-        printf("Usuario 3 autenticado com sucesso!\n");
+        printf("Usuario 3 autenticado\n");
     }else if(abs(a1 - iris4_a1) <= 5 && abs(a2 - iris4_a2) <= 5 && abs(a3 - iris4_a3) <= 5){
-        printf("Usuario 4 autenticado com sucesso!\n");
+        printf("Usuario 4 autenticado\n");
     }else{
-        printf("Autenticacao falhou!\n");
+        printf("Autenticacao falhou\n");
     }
     return 0;
 }
