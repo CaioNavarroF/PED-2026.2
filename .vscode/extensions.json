@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "franneck94.c-cpp-runner",
+    "ms-vscode.cpptools"
+  ],
+  "unwantedRecommendations": [
+    "danielpinto8zz6.c-cpp-compile-run"
+  ]
+}
